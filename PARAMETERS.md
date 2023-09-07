@@ -39,7 +39,7 @@ Figure 6: pattern heterogeneity varying chi
 6.d-f) Dw=1; a=1; c=0.5; gamma=2200; du=1; e3=1; 
 
 
-Figure 7: pattern heterogeneity varying’ e3
+Figure 7: pattern heterogeneity varying e3
 7.a-c) e1=0; e2=0; Dw=1; a=0.2; c=0.2; gamma=2200; Du=1; 
 7.d-f) e1=0; e2=1; Dw=1; a=0.2; c=0.2; gamma=2200; Du=1; 
 
