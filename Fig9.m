@@ -1,3 +1,6 @@
+%% Please load all files related to Figure 9
+
+
 clear all; clc; close all;
 
 load('LakeColorsMap.mat')
