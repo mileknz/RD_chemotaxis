@@ -1,8 +1,11 @@
-clear all;clc;
+%% Please load all files related to Figure 10
+% or just choose 'abc' or 'def' or 'ghi' on path variable bellow.
 
-% path = '/Users/mileknz/Documents/Paper/June22_simulations_figures/Fig1D_in_1e4/';
-% path = '/Users/mileknz/Documents/Paper/June22_simulations_figures/Fig1D_out_1e4/';
- path = '/Users/mileknz/Documents/Paper/June22_simulations_figures/Fig11_1D_e3_Dw1_chi4_e21_e11_t04/';
+clear all;clc;close all;
+
+% path = 'abc';
+% path = 'def';
+ path = 'ghi';
 
 load('LakeColorsMap.mat')
 
@@ -28,7 +31,7 @@ switch namu
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % first line
 
-    case '/Users/mileknz/Documents/Paper/June22_simulations_figures/Fig11_1D_e3_Dw1_chi4_e21_e11_t04/'
+    case 'ghi'
     file = ['saved' num2str(id1) '_log.mat'];
     fullname = [path file];
 
@@ -161,7 +164,7 @@ switch namu
     pathsave = '/Users/mileknz/Documents/Paper/github_folder/Fig10/';
     saveas(gcf,[pathsave 'Fig10_1D_e3_ghi'],'epsc')
     
-    case '/Users/mileknz/Documents/Paper/June22_simulations_figures/Fig1D_in_1e4/'
+    case 'abc'
             file = ['saved' num2str(id1) '_log.mat'];
     fullname = [path file];
 
@@ -296,7 +299,7 @@ switch namu
     pathsave = '/Users/mileknz/Documents/Paper/github_folder/Fig10/';
     saveas(gcf,[pathsave 'Fig10_1D_chi_abc'],'epsc')
     
-    case '/Users/mileknz/Documents/Paper/June22_simulations_figures/Fig1D_out_1e4/'
+    case 'def'
             file = ['saved' num2str(id1) '_log.mat'];
     fullname = [path file];
 
