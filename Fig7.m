@@ -1,3 +1,5 @@
+%% Please load all files related to Figure 7
+
 % plot the subplots for the paper figure e3
 % first line: increasing e3 for e2=1
 % second line: e2=0
