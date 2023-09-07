@@ -1,3 +1,5 @@
+%% Please load all files related to Figure 6
+
 % plot the subplots for the paper figure Fig.6
 % first line: increasing chi for Dw=40 and fv>0
 % second line: Dw=1 and fv<0
