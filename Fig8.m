@@ -1,3 +1,5 @@
+%% Please load all files related to Figure 8
+
 clear all;clc;
 
 path = '/Users/mileknz/Documents/Paper/github_folder/Fig8/';
