@@ -1,3 +1,5 @@
+%% Please load all files related to Figure 5
+
 close all; clc; clear all;
 
 path = '/Users/mileknz/Documents/Paper/github_folder/data';
